@@ -9,7 +9,7 @@
 
  - Команда Яндекс Практикума наглядно показывает насколько может быть контрастно и увлекательно путешествие по России! Настолько же, насколько и работа над данным проектом)))
 
- - Ссылка на GitPages https://aveindominusnox.github.io/russian-travel/
+ - Ссылка на GitPages https://aveindominusnox.github.io/russian-travel/index.html
 
 
  ## <center>О используемых технологиях.
