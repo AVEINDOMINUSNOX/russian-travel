@@ -28,7 +28,8 @@
     }
 }
 
-@media screen and (min-width:320px) and (max-width:768px) {
+@media screen and (min-width:319px) and (max-width:767px) {
+
     .cover {
         min-height: calc(200px + (480 - 200) * (100vw - 200px) / (768 - 320));
     }

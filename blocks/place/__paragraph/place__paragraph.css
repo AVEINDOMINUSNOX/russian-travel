@@ -27,19 +27,18 @@
     .place__paragraph:last-child {
         margin-top: 25px;
     }
-}
-
-
-@media screen and (max-width: 680px) {
-    .place__paragraph {
-        font-size: 16px;
-    }
-
-    .place__paragraph:last-child {
-        margin-top: 25px;
-    }
-
-    .place__paragraph:first-child {
+    /*Здесь я обнуляю отступ у одного последнего параграфа, т.к. он одновременно и last-child, то к нему 
+    добавился отступ в 25px.*/
+    .place__paragraph:first-child { 
         margin: 0;
     }
 }
+
+@media screen and (width:320px) {
+    .place__paragraph {
+        white-space: pre-line;
+
+    }
+}
+
+

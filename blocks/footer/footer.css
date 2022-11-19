@@ -7,21 +7,15 @@
 }
 
 @media screen and (max-width:9999px) {
-    footer {
+    .footer {
         margin: 92px 48px 24px 48px;
     }
 
 }
 
-@media screen and (max-width:1280px) {
-    footer {
-        margin: 92px 48px 24px 48px;
-    }
-
-}
 
 @media screen and (max-width:768px) {
-    footer {
+    .footer {
         margin: 92px 24px 24px 24px;
 
     }
@@ -34,8 +28,8 @@
 }
 
 @media screen and (max-width:320px) {
-    footer {
-        margin: 92px auto 48px 16px;
+    .footer {
+        margin: 64px auto 48px 16px;
     }
 
 }

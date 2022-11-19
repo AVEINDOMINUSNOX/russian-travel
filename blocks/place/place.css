@@ -1,7 +1,7 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto repeat(2, 1fr);
+    grid-template-columns: fit-content(460px) fit-content(484px);
+    grid-template-rows:  repeat(3, auto);
     grid-template-areas:
         "title website"
         "image paragraph"
@@ -21,7 +21,7 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
     .place {
         gap: 48px 28px;
         margin-top: 72px;
@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:767px) {
     .place {
         grid-template-columns: auto;
         grid-template-rows: repeat(6, auto);
