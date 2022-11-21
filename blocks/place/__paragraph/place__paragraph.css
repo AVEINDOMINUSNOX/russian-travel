@@ -1,37 +1,24 @@
 .place__paragraph {
-    font-size: 18px;
-    line-height: 163%;
-    margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  margin-bottom: 27px;
 }
 
 .place__paragraph:last-child {
-    margin-top: 27px;
-}
-
-.place__paragraph:first-child {
-    margin: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
-    .place__paragraph {
-        font-size: calc(16px + (18 - 16) * (100vw - 768px) / (1024 - 768));
+  .place__paragraph {
+    font-size: calc(16px + (18 - 16) * (100vw - 768px) / (1024 - 768));
 
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
-        font-size: 16px;
-    }
-
-    .place__paragraph:last-child {
-        margin-top: 25px;
-    }
-    /*Здесь я обнуляю отступ у одного последнего параграфа, т.к. он одновременно и last-child, то к нему 
-    добавился отступ в 25px.*/
-    .place__paragraph:first-child { 
-        margin: 0;
-    }
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
 }
-
-
